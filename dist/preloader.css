@@ -15,6 +15,10 @@
     height: 100%;
     width: 100%;
     display: block !important;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .preloader:after {

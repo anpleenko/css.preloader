@@ -12,7 +12,10 @@
     background: rgba(255, 255, 255, 0.9);
     height: 100%;
     width: 100%;
+
+    //clearfix
     display: block !important;
+    user-select: none;
   }
   &:after{
     content: '';
